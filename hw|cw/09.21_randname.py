@@ -1,3 +1,8 @@
+"""<Alejandro> <Alonso>
+SoftDev
+K<03> -- <RandomName/NA/Pick a random element from two lists>
+<2021>-<09>-<22>"""
+
 import random
 
 def pickname_conc(pd1, pd2):
