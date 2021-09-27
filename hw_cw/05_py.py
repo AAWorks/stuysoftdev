@@ -20,7 +20,7 @@ it increases the complexity.
 import sys
 from random import randrange
 
-def read_names(filename: str):
+def read_names(filename):
     """Reads a text file containing a list of names, where each line contains
     one name, and returns a list of the names."""
     file_contents = ""
@@ -36,7 +36,7 @@ def main():
     """Prints a random student name given two files containing lists of names,
     where each line contains one name."""
     if len(sys.argv) != 3:
-        print("Usage: python names.py pd1_filename pd2_filename")
+        print("Usage: python 05_py.py pd1_filename pd2_filename")
         return
 
     pd1 = read_names(sys.argv[1])
@@ -44,8 +44,7 @@ def main():
     names = pd1 + pd2
 
     # Pick a random name from the list of pd1 and pd2 names
-    name_index = randrange(len(names))
-    print(names[name_index])
+    print(random.choice(names))
 
 if __name__ == "__main__":
     main()
