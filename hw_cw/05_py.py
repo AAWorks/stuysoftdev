@@ -7,7 +7,7 @@ POW-WOW Summary: Zhaoyu's code was the most effecient in terms of scalability an
 of the program. Furthermore, the integration of random and clean combination of lists allows for easy management of the two periods, allowing us to later shape
 them as we wish if need be.
 
-Discoveries: randrange is a very simple and clean use of the Random module. There is a lot more we can do in terms of brushing up on Python and finding
+Discoveries: random.choice() is a very simple and clean use of the Random module. There is a lot more we can do in terms of brushing up on Python and finding
 quicker ways to code.
 
 Questions: How could we more effectively gather the desired names of pd1 and pd2?
@@ -17,8 +17,7 @@ it increases the complexity.
 """
 
 
-import sys
-from random import randrange
+import sys, random
 
 def read_names(filename):
     """Reads a text file containing a list of names, where each line contains
