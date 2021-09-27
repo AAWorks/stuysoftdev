@@ -9,11 +9,12 @@ them as we wish if need be.
 
 Discoveries: randrange is a very simple and clean use of the Random module. There is a lot more we can do in terms of brushing up on Python and finding
 quicker ways to code.
+
 Questions: How could we more effectively gather the desired names of pd1 and pd2?
+
 Comments: Overall, this seems like a simple assignment in terms of choosing a student name, but when incorporating how one would desire to change the program
 it increases the complexity.
 """
-
 
 
 import sys
