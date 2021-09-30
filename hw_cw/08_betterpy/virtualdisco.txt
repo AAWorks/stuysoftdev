@@ -1,5 +1,3 @@
-# Umlauts | Pd. 1 | Alejandro Alonso, Yusuf Elsharawy
-
 https://docs.python.org/3/library/venv.html
 
 The command $ python3 -m venv ~/myherozero creates a virtual environment in the users working directory, which essentially creates a bubble, or shielded workspace. This way,
