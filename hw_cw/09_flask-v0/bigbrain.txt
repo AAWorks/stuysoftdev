@@ -1,4 +1,5 @@
-<Alejandro> <Alonso>
+<Alejandro> <Alonso> <Yusuf> <Elsharawy>
+<Sr. Juan> <>
 SoftDev
 K<09> -- <Simple Path to Greatness/Flask/Responses to questions in app.py>
 <2021>-<10>-<03>
