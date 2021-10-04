@@ -1,0 +1,12 @@
+Q0:
+Java, Nim, C++, etc, any language (usually OO) in which you can construct/initialize an object with the type name and parentheses.
+Q1:
+This most likely means with respect to the URL. In this case, if the user requests the page `http://URL.TO.WEB.SERVER:PORT/` (with no subpage), then it should use this function. And if the function was decorated with `@app.route("/myPage")` instead, then a user would have to request `http://URL.TO.WEB.SERVER:PORT/myPage` instead.
+Q2:
+This will print to the console, where the flask server is being run from.
+Q2-3:
+It will print `__main__`, since this file is the main file being run.
+Q3:
+This will most likely appear on the site (as a response to the user's request). I know this because, well, how else would the server respond to a user? There's no other part of this code that could be the response.
+Q4:
+This construct is common among OOP languages, such as Java or C++. Even languages that aren't object-oriented, such as Lua or Nim, have a similar construct.
