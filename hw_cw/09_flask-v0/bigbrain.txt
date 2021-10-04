@@ -1,3 +1,8 @@
+<Alejandro> <Alonso>
+SoftDev
+K<09> -- <Simple Path to Greatness/Flask/Responses to questions in app.py>
+<2021>-<10>-<03>
+
 Q0:
 Java, Nim, C++, etc, any language (usually OO) in which you can construct/initialize an object with the type name and parentheses.
 Q1:
