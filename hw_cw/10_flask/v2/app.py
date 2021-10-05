@@ -13,3 +13,5 @@ def hello_world():
 
 app.run()
 
+# This is the same as v0, except it also prints "about to print __name__..."
+# to the terminal before printing "__main__".
