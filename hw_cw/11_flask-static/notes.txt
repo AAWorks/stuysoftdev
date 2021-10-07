@@ -1,6 +1,6 @@
 <Alejandro> <Alonso> <Yusuf> <Elsharawy> <Deven> <Maheshwari>
 <Sr. Juan> <Bill> <Batman>
-SoftDev
+Soft Dev
 K<11> -- <Some Things Never Change/Flask/Notes on running the static subdir>
 <2021>-<10>-<06>
 
