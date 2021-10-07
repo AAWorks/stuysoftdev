@@ -1,7 +1,7 @@
 <Alejandro> <Alonso>
 <Sr. Juan>
 SoftDev
-K<09> -- <Cross Pollination and Virtual Insanity/Venvs/Investigate the below line of code>
+K<08> -- <Cross Pollination and Virtual Insanity/Venvs/Investigate the below line of code>
 <2021>-<10>-<01>
 
 https://docs.python.org/3/library/venv.html
