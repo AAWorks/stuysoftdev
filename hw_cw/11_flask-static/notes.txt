@@ -1,3 +1,9 @@
+<Alejandro> <Alonso> <Yusuf> <Elsharawy> <Deven> <Maheshwari>
+<Sr. Juan> <Bill> <Batman>
+SoftDev
+K<11> -- <Some Things Never Change/Flask/Notes on running the static subdir>
+<2021>-<10>-<06>
+
 11_flask-static (the parent of app.py) directly contains a "static" subdirectory, which contains the 2 files that will be served statically.
 The app.py file itself is not within the static folder.
 We realized that nothing had to be added in app.py to serve static files.
