@@ -1,3 +1,9 @@
+<Alejandro> <Alonso>
+<Sr. Juan>
+SoftDev
+K<12> -- <The Only Constant is Change/rendering a website - flask/questions in app.py>
+<2021>-<10>-<07>
+
 Q0: What happens if you remove render_template from this line?
 You will get an error when you try to call it, because it won't be imported from the flask module.
 
