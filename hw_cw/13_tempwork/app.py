@@ -10,7 +10,11 @@ coll = occupations.init()
 
 @app.route("/occupyflaskst")
 def test_tmplt():
-    return render_template( 'tablified.html', foo="Occupations", collection=coll)
+    return render_template('tablified.html', 
+        foo="Occupations", 
+        header = "Data Covering Various Occupations and their Respective Percentages", 
+        names = "Gitsters | Alejandro Alonso, Ivan Lam",
+        collection=coll)
 
 if __name__ == "__main__":
     app.debug = True
