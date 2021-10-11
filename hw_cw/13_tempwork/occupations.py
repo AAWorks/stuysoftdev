@@ -2,7 +2,7 @@ import csv
 
 def init():
     jobPercentages = {}
-    with open('data/occupations.csv') as csvfile:
+    with open('data\occupations.csv') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             job = row["Job Class"]
