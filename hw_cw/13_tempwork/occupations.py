@@ -7,8 +7,5 @@ def init():
         for row in reader:
             job = row["Job Class"]
             percentage = float(row["Percentage"])
-            if job == 'Total':
-                totalPercentage = percentage
-            else:
-                jobPercentages[job] = float(percentage)
+            jobPercentages[job] = float(percentage)
     return jobPercentages
