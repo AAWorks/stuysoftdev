@@ -3,7 +3,8 @@ import csv, random
 jobPercentages = {}
 totalPercentage = 100
 
-def init():             # Reading CSV file
+def init():
+    """reads a two column csv file into a python dict"""
     global totalPercentage
     with open('data/occupations.csv') as csvfile:
         reader = csv.DictReader(csvfile)
@@ -16,7 +17,8 @@ def init():             # Reading CSV file
                 jobPercentages[job] = float(percentage)
     return jobPercentages
 
-def chooseRandom():     # Choosing random value based on weighted percentages. 
+def chooseRandom():
+    """chooses a random key from a predefined dictionary based on percentage values in that dictionary"""
     randVal = random.uniform(0, totalPercentage)
     for k, v in jobPercentages.items():
         randVal -= v

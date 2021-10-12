@@ -11,6 +11,8 @@ coll = occupations.init()
 
 @app.route("/occupyflaskst")
 def test_tmplt():
+    """feeds to an html file; renders template"""
+
     return render_template('tablified.html', 
         foo="Occupations", 
         header = "Data Covering Various Occupations and their Respective Percentages", 
