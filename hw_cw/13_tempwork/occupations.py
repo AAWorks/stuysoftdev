@@ -5,7 +5,7 @@ totalPercentage = 100
 
 def init():             # Reading CSV file
     global totalPercentage
-    with open('data\occupations.csv') as csvfile:
+    with open('data/occupations.csv') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             job = row["Job Class"]
