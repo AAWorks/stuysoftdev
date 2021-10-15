@@ -27,7 +27,7 @@ def authenticate():
     """
     generate and fill out the response page using flask vars
     """
-    return render_template('response.html', username=request.args.get('username'), req = request.method)  #response to a form submission
+    return render_template('response.html', username=request.args.get('username'))  #response to a form submission
 
 
     
