@@ -16,11 +16,17 @@ app = Flask(__name__)    #create Flask object
 
 @app.route("/") #, methods=['GET', 'POST'])
 def disp_loginpage():
+    """
+    create the basic login page
+    """
     return render_template( 'login.html')
 
 
 @app.route("/auth") # , methods=['GET', 'POST'])
 def authenticate():
+    """
+    generate and fill out the response page using flask vars
+    """
     return render_template('response.html', username=request.args.get('username'), req = request.method)  #response to a form submission
 
 
