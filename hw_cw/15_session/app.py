@@ -5,29 +5,21 @@ K14 -- Form and Function
 2021-10-14
 """
 
-from flask import Flask, render_template, request, session         #facilitate form submission
-
+from flask import Flask, render_template, request, session, redirect, url_for    #facilitate form submission
 #the conventional way:
 #from flask import Flask, render_template, request
 
 app = Flask(__name__)    #create Flask object
 
-username = waahoos
-password = aaimwc
-
-def checkuser(user, pwd):
-
+user = "waahoos"
+pwd = "aaimwc"
 
 @app.route("/") #, methods=['GET', 'POST'])
 def disp_loginpage():
     """
     create the basic login page
     """
-
-    if session['email']:
-
-    return render_template( 'login.html')
-
+    return render_template('login.html')
 
 @app.route("/auth") # , methods=['GET', 'POST'])
 def authenticate():
@@ -42,20 +34,20 @@ def authenticate():
         print(request)
         print("***DIAG: request.args ***")
         print(request.args)
+        print("***DIAG: session***")
+        print(session)
 
     try:
-        if username==request.args.get("username"):
-            if password==request.args.get("password"):
-                return render_template('response.html', username=request.args.get('username'))  #response to a correct form submission
+        if user==request.args.get("username"):
+            if pwd==request.args.get("password"):
+                return render_template('response.html', username=user)  #response to a correct form submission
             else:
-                return render_template('error.html', error_message="")  #response to an incorrect password submission
+                return render_template('error.html', error_message="Incorrect Password.")  #response to an incorrect password submission
         else:
-            return render_template('error.html', error_message="")  #response to an incorrect username submission
+            return render_template('error.html', error_message="Username not found.")  #response to an incorrect username submission
     except:
-        return render_template('error.html', error_message="")  #response to a broken submission
+        return render_template('error.html', error_message="Invalid submission.")  #response to a broken submission
 
-
-    
 if __name__ == "__main__": #false if this file imported as module
     #enable debugging, auto-restarting of server when this file is modified
     app.debug = True 
