@@ -4,3 +4,10 @@ K15 -- Sessions Greetings
 2021-10-14
 
 Currently figuring out sessions and buttons in flask.
+
+Resources:
+https://stackoverflow.com/questions/41416411/flask-signing-in-and-signing-out
+https://www.tutorialspoint.com/flask/flask_sessions.htm
+https://overiq.com/flask-101/sessions-in-flask/
+https://pythonbasics.org/flask-sessions/
+https://testdriven.io/blog/flask-sessions/
