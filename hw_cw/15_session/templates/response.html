@@ -22,7 +22,9 @@
     <h3> Greetings Emperor {{ username }}! </h3>
     <h4> Request Method: {{ request }} </h4>
     <br>
-    <button> logout </button>
+    <form action="/logout" method="post">
+      <button name="logout" type="submit">Logout</button>
+    </form>
   </body>
 
 </html>

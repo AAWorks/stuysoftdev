@@ -17,7 +17,7 @@ pwd = "aaimwc"
 app.secret_key = "k15"
 
 @app.route("/", methods=['GET', 'POST']) #, methods=['GET', 'POST'])
-def disp_loginpage():
+def index():
     """
     create the basic login page
     """
@@ -26,7 +26,7 @@ def disp_loginpage():
     return render_template('login.html')
 
 @app.route("/auth", methods=['GET', 'POST']) # , methods=['GET', 'POST'])
-def authenticate():
+def auth():
     """
     generate and fill out the response page using flask vars
     """
@@ -53,7 +53,10 @@ def authenticate():
     except:
         return render_template('error.html', error_message="Invalid submission.")  #response to a broken submission
 
-
+@app.route("/logout", methods=["GET", "POST"])
+def logout():
+    session.pop("username", default=None)
+    return redirect(url_for('index'))
 
 if __name__ == "__main__": #false if this file imported as module
     #enable debugging, auto-restarting of server when this file is modified
