@@ -11,3 +11,4 @@ https://www.tutorialspoint.com/flask/flask_sessions.htm
 https://overiq.com/flask-101/sessions-in-flask/
 https://pythonbasics.org/flask-sessions/
 https://testdriven.io/blog/flask-sessions/
+https://stackoverflow.com/questions/42601478/flask-calling-python-function-on-button-onclick-event
