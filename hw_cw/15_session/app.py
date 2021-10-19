@@ -14,14 +14,18 @@ app = Flask(__name__)    #create Flask object
 user = "waahoos"
 pwd = "aaimwc"
 
-@app.route("/") #, methods=['GET', 'POST'])
+app.secret_key = "k15"
+
+@app.route("/", methods=['GET', 'POST']) #, methods=['GET', 'POST'])
 def disp_loginpage():
     """
     create the basic login page
     """
+    if 'username' in session:
+        return render_template('response.html', username=user)
     return render_template('login.html')
 
-@app.route("/auth") # , methods=['GET', 'POST'])
+@app.route("/auth", methods=['GET', 'POST']) # , methods=['GET', 'POST'])
 def authenticate():
     """
     generate and fill out the response page using flask vars
@@ -40,6 +44,7 @@ def authenticate():
     try:
         if user==request.args.get("username"):
             if pwd==request.args.get("password"):
+                session['username'] = user
                 return render_template('response.html', username=user)  #response to a correct form submission
             else:
                 return render_template('error.html', error_message="Incorrect Password.")  #response to an incorrect password submission
@@ -47,6 +52,8 @@ def authenticate():
             return render_template('error.html', error_message="Username not found.")  #response to an incorrect username submission
     except:
         return render_template('error.html', error_message="Invalid submission.")  #response to a broken submission
+
+
 
 if __name__ == "__main__": #false if this file imported as module
     #enable debugging, auto-restarting of server when this file is modified
