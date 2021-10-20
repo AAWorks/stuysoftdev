@@ -1,8 +1,8 @@
 """
 Waahoos: Alejandro Alonso, Ivan Mijacika, William Chen
 SoftDev
-K14 -- Form and Function
-2021-10-14
+K15 -- Sessions Greetings
+2021-10-20
 """
 
 from flask import Flask, render_template, request, session, redirect, url_for    #facilitate form submission
@@ -19,7 +19,7 @@ app.secret_key = "k15"
 @app.route("/", methods=['GET', 'POST']) #, methods=['GET', 'POST'])
 def index():
     """
-    create the basic login page
+    create the basic login page, if session active auto-sign in
     """
     if 'username' in session:
         return render_template('response.html', username=user)
@@ -28,7 +28,7 @@ def index():
 @app.route("/auth", methods=['GET', 'POST']) # , methods=['GET', 'POST'])
 def auth():
     """
-    generate and fill out the response page using flask vars
+    generate and fill out the response page using flask vars, check validity of inputs
     """
     if app.debug:
         print("\n\n\n")
@@ -55,6 +55,9 @@ def auth():
 
 @app.route("/logout", methods=["GET", "POST"])
 def logout():
+    """
+    logout method, redirects to login page
+    """
     session.pop("username", default=None)
     return redirect(url_for('index'))
 
