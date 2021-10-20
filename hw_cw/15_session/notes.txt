@@ -1,7 +1,7 @@
 Waahoos: Alejandro Alonso, Ivan Mijacika, William Chen
 SoftDev
 K15 -- Sessions Greetings
-2021-10-14
+2021-10-20
 
 10/18 --> Currently figuring out sessions and buttons in flask.
 
