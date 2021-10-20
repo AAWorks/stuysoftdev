@@ -14,7 +14,7 @@ app = Flask(__name__)    #create Flask object
 user = "waahoos"
 pwd = "aaimwc"
 
-app.secret_key = "k15"
+app.secret_key = "ajdhauchisadnjafklehqwnjkodauvhajxci"
 
 @app.route("/", methods=['GET', 'POST']) #, methods=['GET', 'POST'])
 def index():
