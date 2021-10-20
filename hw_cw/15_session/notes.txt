@@ -3,7 +3,12 @@ SoftDev
 K15 -- Sessions Greetings
 2021-10-14
 
-Currently figuring out sessions and buttons in flask.
+10/18 --> Currently figuring out sessions and buttons in flask.
+
+Ultimately biggest hurdle to jump was on how to use session, as we spent a lot of time
+attempting to figure out the source of the error we were receiving. Turns out our code 
+was in fact correct, but was missing the secret key used to encode data. Once this was
+figured out by conversing with other devs, the rest came together swiftly and neatly.
 
 Resources:
 https://stackoverflow.com/questions/41416411/flask-signing-in-and-signing-out
