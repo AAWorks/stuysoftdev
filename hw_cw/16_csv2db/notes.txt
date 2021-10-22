@@ -1,0 +1,7 @@
+Waahoos: Alejandro Alonso, Ivan Mijacika, William Chen
+SoftDev
+K16 -- All About Databases
+2021-10-20
+
+Good progress understanding sqlite commands. Main ones to remember are the create table, insert record,
+and select record commands. For readability in terminal .headers on and .mode column work best.
