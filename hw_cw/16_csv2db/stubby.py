@@ -2,15 +2,21 @@
 import sqlite3 #enable SQLite operations
 
 #open db if exists, otherwise create
-db = sqlite3.connect("foo") 
+db = sqlite3.connect("discobandit.db") 
 
 c = db.cursor() #facilitate db ops
 
 #c.execute("""CREATE TABLE roster(name TEXT,
 #           userid INTEGER)""")
 
-db.commit() #save changes
+#save changes
 
-c.execute("SELECT * FROM roster")
+c.execute("SELECT * FROM t")
+result = c.fetchall()
+  
+# loop through the rows
+for row in result:
+    print(row)
+    print("\n")
 
 db.close()
