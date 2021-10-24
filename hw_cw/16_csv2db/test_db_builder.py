@@ -6,15 +6,11 @@ db = sqlite3.connect("discobandit.db")
 
 c = db.cursor() #facilitate db ops
 
-#c.execute("""CREATE TABLE roster(name TEXT,
-#           userid INTEGER)""")
-
-#save changes
-
-c.execute("SELECT * FROM t")
-result = c.fetchall()
+def see_table(tablename):
+    c.execute(f"SELECT * FROM {tablename}")
+    return c.fetchall()
   
-# loop through the rows
+result = see_table("students")
 for row in result:
     print(row)
     print("\n")

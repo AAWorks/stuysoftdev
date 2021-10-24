@@ -10,7 +10,7 @@ cur = con.cursor()
 
 def crt_table(file, t):
     """
-    creates a sql table named t given a csv file with 3 columns in discobandit.db
+    creates a sql table named t given a csv file with 3 columns in discobandit.dbg
     """
     with open(file,'r') as fin:
         data = csv.DictReader(fin)
