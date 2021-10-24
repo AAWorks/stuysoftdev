@@ -42,14 +42,11 @@ import csv, sqlite3
 
 con = sqlite3.connect("discobandit.db") # change to 'sqlite:///your_filename.db'
 cur = con.cursor()
-cur.execute("CREATE TABLE t (code, mark, id);") # use your column names here
+cur.execute("CREATE TABLE t (code, mark, id);") # creates table
 
-with open('courses.csv','r') as fin: # `with` statement available in 2.5+
-    # csv.DictReader uses first line in file for column headings by default
-    data = csv.DictReader(fin) # comma is default delimiter
-    vals=[]
-    for row in data:
-        vals=[row['code'], row['mark'], row['id']]
+with open('courses.csv','r') as fin:
+    data = csv.DictReader(fin)
+    vals = [(row['code'], row['mark'], row['id']) for row in data] #transferring dictreader values to a 2d array
 
 cur.executemany("INSERT INTO t (code, mark, id) VALUES (?, ?, ?);", vals) #for row of values in list object vals, inserts the values into the table
 con.commit()
