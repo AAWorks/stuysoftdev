@@ -5,3 +5,8 @@ K16 -- All About Databases
 
 Good progress understanding sqlite commands. Main ones to remember are the create table, insert record,
 and select record commands. For readability in terminal .headers on and .mode column work best.
+
+Completion with new sqlite commands.
+
+resources:
+https://docs.python.org/3/library/sqlite3.html
