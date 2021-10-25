@@ -1,7 +1,6 @@
-#Clyde "Thluffy" Sinclair
-#SoftDev  
-#skeleton/stub :: SQLITE3 BASICS
-#Dec 2020 -- The Time of the Rona
+#Alejandro Alonso, Ivan Mijacika, William Chen
+#SoftDev
+#Oct 2021 -- ALl About Database
 
 import csv, sqlite3
 
