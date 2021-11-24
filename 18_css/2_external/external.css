@@ -1,0 +1,70 @@
+body {
+    background: DimGrey; 
+    font-family:Arial; 
+    font-weight:Bold
+}
+
+h1 {
+    background: DarkGrey; 
+    padding: 3px 0px; 
+    color: WHITE; 
+    text-align: center; 
+    vertical-align: top; 
+    height: 100%"
+}
+
+.container{
+    background: Grey;
+  	text-align: center;
+  	height: 100%;
+  	margin-top: -23px;
+  	margin-bottom: -17px
+    }
+
+.nav{
+    display: inline-block;
+  	vertical-align: top;
+  	text-align: left;
+  	width: 19%;
+  	padding: 0px 10px;
+  	height: 209px
+}
+
+h3{
+    line-height: 3px
+}
+
+ul{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}
+    
+a{
+    color: WHITE; 
+    text-decoration: none
+}
+    
+.maintext{
+    display: inline-block;
+  	text-align: left;
+  	width: 77%;
+}
+
+    
+h2{
+    line-height: 7px
+}
+    
+p{
+    font-weight:500
+}
+    
+.copyright{
+    text-align: right; 
+    background: #4d4d4d; 
+    padding: 8px 7px; 
+    color: Grey; 
+    vertical-align: top; 
+    font-weight:normal
+}
