@@ -3,4 +3,4 @@
 # K19 -- A RESTful journey skyward / API flaskwork
 # 2021-11-23
 
-W3Schools is a godsend for CSS
+Make sure to use: src = "{{pic}}"
