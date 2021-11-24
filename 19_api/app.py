@@ -8,10 +8,12 @@ import urllib.request, json
 from flask import Flask, render_template
 app = Flask(__name__) #create instance of class Flask
 
-with open("key_nasa.txt", "r") as key:
+with open("19_api/key_nasa.txt", "r") as keyfile:
+    key = keyfile.readline()
     key = key if key else "4x0Ai69ML3zpXNaVs0sN7g5Rrxf2gQQmVOtmTtKp"
-    with urllib.request.urlopen(f"https://api.nasa.gov/planetary/apod?api_key={key}") as response:
-        html = response.read()
+
+with urllib.request.urlopen(f"https://api.nasa.gov/planetary/apod?api_key={key}") as response:
+    html = response.read()
 
 dic = json.loads(html)
 
