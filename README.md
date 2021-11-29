@@ -4,5 +4,5 @@
 ------
 
 ### Projects
-P00: Blogsite | [See Repo](https://github.com/AAWorks/BaaTimeBlogs "BaaTime Blogs")
+P00: Blogsite | [Repo](https://github.com/AAWorks/BaaTimeBlogs "BaaTime Blogs")
 
