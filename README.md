@@ -1,8 +1,7 @@
 # SoftDev Course Work
+<br>Assignments and Projects for Stuyveant's SoftDev Class
 
-Assignments and Projects for Stuyveant's SoftDev Class
+------
 
---
-
-### Project Repos
-P00: 
+### Projects
+P00: Blogsite: AAWorks/BaaTimeBlogs
