@@ -1,5 +1,5 @@
 # SoftDev Course Work
-<br>Assignments and Projects for Stuyveant's SoftDev Class
+<br>Assignments and Projects for Stuyvesant's SoftDev Class
 
 ------
 
