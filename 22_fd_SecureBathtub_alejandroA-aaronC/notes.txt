@@ -1,0 +1,5 @@
+Foundation Framework allows for:
+- Customizability
+- Resizing aid
+- More unique front-end (as opposed to twitter bootstrap)
+- Easy to use
