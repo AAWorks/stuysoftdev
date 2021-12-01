@@ -8,3 +8,8 @@ Foundation Framework allows for:
 - Resizing aid
 - More unique front-end (as opposed to twitter bootstrap)
 - Easy to use
+
+Notable Features:
+- Flexbox: We don't fully understand this yet, but it basically makes horizontal and vertical alignment specifically for textboxes or boxes in general much easier and simpler
+- Off canvas display: Super duper important for mobile devices, menu can be put here
+- 
