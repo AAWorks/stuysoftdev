@@ -1,0 +1,23 @@
+# Secure Bathtub: Alejandro Alonso, Aaron Contreras
+# SoftDev
+# K23 -- No.2 -- foundation and flash
+# 2021-11-23
+
+DISCO:
+- Bootstap applies default styling and centering of text in container class. 
+- Automatically makes it so that longtext wraps around
+- Breadcrumb: Allows user to see path to page
+
+QCC:
+
+- features like accordion list and off canvas display 
+- Are breadcrumbs good navigation bars?
+- Hard to find CDN links for JS in the documentation
+
+Q1:
+- personally we preder bootstap as it is more aestheticly pleasing and has a bigger user base. 
+
+
+
+
+
