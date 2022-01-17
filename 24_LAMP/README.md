@@ -15,7 +15,7 @@ A "droplet" is a VM (Virtual Machine) and allows us to host our own websites wit
 * https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 ---
 
-Accurate as of (last update): 2021-mm-dd
+Accurate as of (last update): 2022-01-17
 
 #### Contributors:   
 Alejandro Alonso, pd1  
