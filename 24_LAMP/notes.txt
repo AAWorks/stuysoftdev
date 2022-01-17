@@ -3,3 +3,7 @@ SoftDev
 K24 -- Cold LAMPin w Flav/Droplets/Installing LAMP and provisioning a Droplet
 2022-01-17
 time spent: 2
+
+DigitalOcean has excellent how-to guides
+Droplet should be bare minimum --> we don't need fancy features for our purposes
+- $5/month
