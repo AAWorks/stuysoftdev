@@ -9,6 +9,7 @@ A "droplet" is a VM (Virtual Machine) and allows us to host our own websites wit
 - Have your DigitalOcean setup
 - - Make sure you have your credits added, although you most likely will be unable to verify their existence
 - Your control panel will become more detailed (with a billing section) upon creating a droplet
+- Your Droplet should cost $5 per month
 
 ### Resources
 * [Installing Apache/Lamp on Ubuntu] https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04
