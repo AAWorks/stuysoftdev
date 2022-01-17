@@ -1,1 +1,5 @@
-
+Alejandro Alonso
+SoftDev
+K24 -- Cold LAMPin w Flav/Droplets/Installing LAMP and provisioning a Droplet
+2022-01-17
+time spent: 2
