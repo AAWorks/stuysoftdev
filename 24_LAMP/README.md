@@ -11,8 +11,8 @@ A "droplet" is a VM (Virtual Machine) and allows us to host our own websites wit
 - Your control panel will become more detailed (with a billing section) upon creating a droplet
 
 ### Resources
-* https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04
-* https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+* [Installing Apache/Lamp on Ubuntu] https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04
+* [Deploying a flask app] https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 ---
 
 Accurate as of (last update): 2022-01-17
