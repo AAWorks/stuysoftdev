@@ -31,6 +31,10 @@ A "droplet" is a VM (Virtual Machine) and allows us to host our own websites wit
 	```
 	$ sudo apt install python3
 
+### Running a Flask App
+ - https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+ - Follow above to a T
+ - - EXCEPT, use ```install libapache2-mod-wsgi-py3```
 
 ### Resources
 * [Installing Apache/Lamp on Ubuntu] https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04
