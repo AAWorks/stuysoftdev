@@ -1,0 +1,8 @@
+Alejandro Alonso
+SoftDev
+K27 -- Converting Scheme to JavaScript
+2022-02-04
+time spent: 0.5 Hours
+
+Used JS and HTML DOM to display our JS output, which I will study further to
+comprehend fully.
