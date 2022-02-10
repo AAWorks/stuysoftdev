@@ -3,3 +3,6 @@ SoftDev
 K29 -- DOMfoolery++
 2022-02-09
 time spent: 0.5 Hours
+
+Use the following to pull a value from an HTML <input> tag:
+'var value = document.getElementById("something").value;'
