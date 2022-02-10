@@ -4,11 +4,11 @@
 // 2022-02-08
 // --------------------------------------------------
 
-var calcfac = function(n){
+function calcfac(n){
   if (n == 0){
-      return 1
+      return 1;
   } else {
-      return fac(n - 1) * n
+      return calcfac(n - 1) * n;
   }
 }
 
@@ -16,25 +16,31 @@ var calcfib = function(n){
   if (n <= 1){
       return n
   } else {
-      return fib(n - 1) + fib(n - 2)
+      return calcfib(n - 1) + calcfib(n - 2)
   }
 }
 
 var calcgcd = function(a, b) {
   if (! b) return a;
-  return gcd(b, a % b);
+  return calcgcd(b, a % b);
 };
 
 //WRAPPERS
-function fac(){
-	document.getElementById("result").innerHTML = "works";
-	calcfac(n);
-}
+var facEle = document.getElementById("fac");
+facEle.addEventListener("click", function(){
+  var value = document.getElementById("facnum").value;
+	document.getElementById("fac-output").innerHTML = "Result: " + calcfac(parseInt(value));
+})
 
-function fib(){
-	calcfib(n);
-}
+var fibEle = document.getElementById("fib");
+fibEle.addEventListener("click", function(){
+  var value = document.getElementById("fibnum").value;
+  document.getElementById("fib-output").innerHTML = "Result: " + calcfib(parseInt(value));
+})
 
-function gcd(){
-	calcgcd(a, b);
-}
+var gcdEle = document.getElementById("gcd");
+gcdEle.addEventListener("click", function(){
+  var valueA = document.getElementById("gcdA").value;
+  var valueB = document.getElementById("gcdB").value;
+  document.getElementById("gcd-output").innerHTML = "Result: " + calcgcd(parseInt(valueA), parseInt(valueB));
+})
