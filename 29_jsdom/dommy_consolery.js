@@ -33,7 +33,7 @@ facEle.addEventListener("click", function(){
 })
 
 var fibEle = document.getElementById("fib");
-fibEle.addEventListener("click", function(){
+  fibEle.addEventListener("click", function(){
   var value = document.getElementById("fibnum").value;
   document.getElementById("fib-output").innerHTML = "Result: " + calcfib(parseInt(value));
 })
