@@ -42,14 +42,18 @@ var drawCircle = function (r) {
 
 //var drawDot = function() {
 var drawDot = () => {
-  console.log("drawDot invoked...")
-
+  if (requestID) {
+    window.cancelAnimationFrame(requestID)
+  }
   // YOUR CODE HERE
   clear();
   drawCircle(radius);
-  radius += (growing == True) ? 1: -1;
+  radius += (growing == true) ? 1: -1;
   if(radius == 250){
-    growing = False;
+    growing = false;
+  }
+  if(radius == 0){
+  	growing = true;
   }
   requestID = window.requestAnimationFrame(drawDot)
   /*
@@ -69,8 +73,6 @@ var drawDot = () => {
 
 //var stopIt = function() {
 var stopIt = () => {
-  console.log("stopIt invoked...")
-  console.log( requestID );
   window.cancelAnimationFrame(requestID)
 
   // YOUR CODE HERE
