@@ -1,7 +1,7 @@
-// Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon
-// SoftDev pd0
+// Team Muricide :: Alejandro Alonso, Kevin Cao
+// SoftDev pd2
 // K31 -- canvas based JS animation
-// 2022-02-15t
+// 2022-02-16
 
 // model for HTML5 canvas-based animation
 
