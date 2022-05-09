@@ -1,0 +1,19 @@
+Alejandro Alonso
+SoftDev
+K35
+2022-05-08
+time spent: 1 Hours
+
+Operators:
+$eq
+#lt, $gt
+$lte, $gte
+
+Logic:
+$and 
+$or 
+$nor 
+$not
+
+Usage:
+{field: {operator: {field: value}}}
